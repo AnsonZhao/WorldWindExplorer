@@ -148,7 +148,7 @@ require([
         // Initialize the view models with their assigned views
         // --------------------------------------------------------
         new GlobeViewModel(globe, {
-            markerManager: explorer.markerManager,
+            FmarkerManager: explorer.markerManager,
             weatherManager: explorer.weatherManager},
             "globe", "js/views/globe.html", "globe");
 
